@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sherali account!!!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #575757;
+        }
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social-links a:hover {
+            background-color: #575757;
+        }
+        .testimonials, .faq {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .testimonials blockquote, .faq ul {
+            margin: 10px 0;
+        }
+        .faq ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .faq li {
+            padding: 10px;
+            background-color: #e9e9e9;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .testimonials, .faq {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to our account!!!</h1>
+        <p>This is my first web browser which I created!!!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About our account</a>
+        <a href="#services">What we can do</a>
+        <a href="#contact">Our web sites</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#feedback">Contact Us</a>
+    </nav>
+
+    <section id="about">
+        <h2>About our account</h2>
+        <p>This web browser is very short, but in the future, we will strive to make it better. If we can help you, you can go to the "What we can do" section. Thank you for your attention! Welcome!</p>
+        <img src="https://via.placeholder.com/600x300" alt="Web Browser Example" style="width:100%; max-width:600px;">
+    </section>
+
+    <section id="services">
+        <h2>What we can do</h2>
+        <ul>
+            <li>Creation of Web Browsers</li>
+            <li>Website creation</li>
+            <li>Web Application Development</li>
+            <li>Mobile App Development</li>
+            <li>SEO Services</li>
+        </ul>
+        <p>We provide a range of services to help you succeed online.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Our Web Sites</h2>
+        <p>If you have any questions or would like to learn more, please visit our websites:</p>
+        <ul>
+            <li><a href="https://itproger.com/" target="_blank">ITproger</a></li>
+            <li><a href="https://stepik.org" target="_blank">STEPIK</a></li>
+        </ul>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div>
+            <blockquote>"This web browser is amazing! I can't wait to see what's next!" - User A</blockquote>
+            <blockquote>"A very useful tool for my daily tasks." - User B</blockquote>
+        </div>
+        <div>
+            <h3>Ratings:</h3>
+            <ul>
+                <li>⭐⭐⭐⭐⭐</li>
+                <li>⭐⭐⭐⭐☆</li>
+                <li>⭐⭐⭐⭐⭐</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div>
+            <h3>How can I use this browser?</h3>
+            <p>You can simply start browsing by entering a URL in the address bar.</p>
+        </div>
+        <div>
+            <h3>Is this browser free?</h3>
+            <p>Yes, this browser is completely free to use!</p>
+        </div>
+        <div>
+            <h3>Can I contribute to this project?</h3>
+            <p>Yes! Feel free to reach out to us via the contact form if you'd like to contribute.</p>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Contact Us</h2>
+        <p>We value your feedback! Please fill out the form below:</p>
+        <form class="contact-form" action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="social">
+        <h2>Follow us</h2>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; created by "SHERALI. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
